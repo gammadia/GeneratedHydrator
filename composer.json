@@ -1,6 +1,6 @@
 {
-    "name":              "ocramius/generated-hydrator",
-    "description":       "An Object Hydrator that allows very fast array to object to array conversion",
+    "name":              "gammadia/generated-hydrator-7.2-for-legacy",
+    "description":       "This is a fork of ocramius/generated-hydrator which reverts the PHP constraint back to 7.2",
     "type":              "library",
     "license":           "MIT",
     "homepage":          "https://github.com/Ocramius/GeneratedHydrator",
@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php":                           "^7.3",
+        "php":                           ">=7.2",
         "nikic/php-parser":              "^4.2.3",
         "ocramius/code-generator-utils": "^1.0.0",
         "zendframework/zend-hydrator":   "^2.4.1"
